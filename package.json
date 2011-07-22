@@ -1,0 +1,21 @@
+{
+  "name": "couchdb-resource"
+, "description": "Your favorite CouchDB resource management toolkit"
+, "version": "0.0.1"
+, "homepage": "http://gleseprance.com"
+, "repository":
+  { "type" : "git"
+  , "url" : "git://github.com/glesperance/couchdb-resource.git"
+  }
+, "author": "Gabriel Lesperance <gabriel@wavo.me> (glesperance.com / wavo.me)"
+, "main": "launcher.js"
+, "engines": {
+    "node": ">=0.4.10"
+  }
+, "dependencies": {
+      "oo"          : ">= 0.0.1"
+    , "async"       : ">= 0.1.9"
+    , "lingo"       : ">= 0.0.4"
+    , "underscore"  : ">= 1.1.6"
+  }
+}
